@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1614350086 source:/Users/horvathmatyas/Desktop/kisbead1/kisbead1/main.cpp
+	<iostream>
+	<vector>
+	"menu.h"
+
+1614102604 /Users/horvathmatyas/Desktop/kisbead1/kisbead1/include/komp.h
+	<iostream>
+
+1614015699 source:/Users/horvathmatyas/Desktop/kisbead1/kisbead1/src/komp.cpp
+	"komp.h"
+	<iostream>
+
+1614350075 /Users/horvathmatyas/Desktop/kisbead1/kisbead1/include/menu.h
+	"komp.h"
+
+1614350969 source:/Users/horvathmatyas/Desktop/kisbead1/kisbead1/src/menu.cpp
+	<iostream>
+	"menu.h"
+	"komp.h"
+	"read.hpp"
+	<sstream>
+
+1614351184 /Users/horvathmatyas/Desktop/kisbead1/kisbead1/include/read.hpp
+	<iostream>
+	<string>
+

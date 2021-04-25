@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report version="1.0" kind="exception">
+  <system description="Mac OS X (Darwin 20.3.0 x86_64)"/>
+  <stack>
+    <frame level="0" function="wxFatalSignalHandler " offset="00000000"/>
+    <frame level="1" function="_sigtramp " offset="00000000"/>
+    <frame level="2" function="_sigtramp " offset="00000000"/>
+    <frame level="3" function="ScintillaBase::WndProc(unsigned int, unsigned long, long) " offset="00000000"/>
+    <frame level="4" function="cbStyledTextCtrl::OnKillFocus(wxFocusEvent&amp;) " offset="00000000"/>
+    <frame level="5" function="wxEventHashTable::HandleEvent(wxEvent&amp;, wxEvtHandler*) " offset="00000000"/>
+    <frame level="6" function="wxEvtHandler::ProcessEvent(wxEvent&amp;) " offset="00000000"/>
+    <frame level="7" function="wxEvtHandler::ProcessEventLocally(wxEvent&amp;) " offset="00000000"/>
+    <frame level="8" function="wxEvtHandler::ProcessEvent(wxEvent&amp;) " offset="00000000"/>
+    <frame level="9" function="wxEvtHandler::SafelyProcessEvent(wxEvent&amp;) " offset="00000000"/>
+    <frame level="10" function="wxWidgetCocoaImpl::DoNotifyFocusEvent(bool, wxWidgetImpl*) " offset="00000000"/>
+    <frame level="11" function="wxWidgetCocoaImpl::resignFirstResponder(NSView*, void*) " offset="00000000"/>
+    <frame level="12" function="wxOSX_resignFirstResponder(NSView*, objc_selector*) " offset="00000000"/>
+    <frame level="13" function="-[NSWindow _realMakeFirstResponder:] " offset="00000000"/>
+    <frame level="14" function="-[wxNSWindow makeFirstResponder:] " offset="00000000"/>
+    <frame level="15" function="-[wxNonOwnedWindowController windowDidResignKey:] " offset="00000000"/>
+    <frame level="16" function="__CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ " offset="00000000"/>
+    <frame level="17" function="___CFXRegistrationPost_block_invoke " offset="00000000"/>
+    <frame level="18" function="_CFXRegistrationPost " offset="00000000"/>
+    <frame level="19" function="_CFXNotificationPost " offset="00000000"/>
+    <frame level="20" function="-[NSNotificationCenter postNotificationName:object:userInfo:] " offset="00000000"/>
+    <frame level="21" function="-[NSWindow resignKeyWindow] " offset="00000000"/>
+    <frame level="22" function="-[NSWindow _changeKeyAndMainLimitedOK:] " offset="00000000"/>
+    <frame level="23" function="-[NSWindow _makeKeyRegardlessOfVisibility] " offset="00000000"/>
+    <frame level="24" function="-[NSWindow makeKeyAndOrderFront:] " offset="00000000"/>
+    <frame level="25" function="wxNonOwnedWindowCocoaImpl::Show(bool) " offset="00000000"/>
+    <frame level="26" function="wxNonOwnedWindow::Show(bool) " offset="00000000"/>
+    <frame level="27" function="ScintillaWX::WndProc(unsigned int, unsigned long, long) " offset="00000000"/>
+    <frame level="28" function="wxScintilla::CallTipShow(int, wxString const&amp;) " offset="00000000"/>
+    <frame level="29" function="CCManager::DoShowTips(std::__1::vector&lt;wxString, std::__1::allocator&lt;wxString&gt; &gt; const&amp;, cbStyledTextCtrl*, int, int, int, int) " offset="00000000"/>
+    <frame level="30" function="CCManager::OnEditorTooltip(CodeBlocksEvent&amp;) " offset="00000000"/>
+    <frame level="31" function="Manager::ProcessEvent(CodeBlocksEvent&amp;) " offset="00000000"/>
+    <frame level="32" function="cbEditor::NotifyPlugins(int, int, wxString const&amp;, int, int) " offset="00000000"/>
+    <frame level="33" function="cbEditor::OnEditorDwellStart(wxScintillaEvent&amp;) " offset="00000000"/>
+    <frame level="34" function="wxEvtHandler::SearchDynamicEventTable(wxEvent&amp;) " offset="00000000"/>
+    <frame level="35" function="wxEvtHandler::ProcessEventLocally(wxEvent&amp;) " offset="00000000"/>
+    <frame level="36" function="wxEvtHandler::ProcessEvent(wxEvent&amp;) " offset="00000000"/>
+    <frame level="37" function="wxWindowBase::TryAfter(wxEvent&amp;) " offset="00000000"/>
+    <frame level="38" function="wxScintilla::NotifyParent(SCNotification*) " offset="00000000"/>
+    <frame level="39" function="ScintillaWX::NotifyParent(SCNotification) " offset="00000000"/>
+    <frame level="40" function="Editor::TickFor(Editor::TickReason) " offset="00000000"/>
+    <frame level="41" function="wxEvtHandler::SearchDynamicEventTable(wxEvent&amp;) " offset="00000000"/>
+    <frame level="42" function="wxEvtHandler::ProcessEventLocally(wxEvent&amp;) " offset="00000000"/>
+    <frame level="43" function="wxEvtHandler::ProcessEvent(wxEvent&amp;) " offset="00000000"/>
+    <frame level="44" function="wxEvtHandler::SafelyProcessEvent(wxEvent&amp;) " offset="00000000"/>
+    <frame level="45" function="wxTimerImpl::SendEvent() " offset="00000000"/>
+    <frame level="46" function="__CFRUNLOOP_IS_CALLING_OUT_TO_A_TIMER_CALLBACK_FUNCTION__ " offset="00000000"/>
+    <frame level="47" function="__CFRunLoopDoTimer " offset="00000000"/>
+    <frame level="48" function="__CFRunLoopDoTimers " offset="00000000"/>
+    <frame level="49" function="__CFRunLoopRun " offset="00000000"/>
+    <frame level="50" function="CFRunLoopRunSpecific " offset="00000000"/>
+    <frame level="51" function="RunCurrentEventLoopInMode " offset="00000000"/>
+    <frame level="52" function="ReceiveNextEventCommon " offset="00000000"/>
+    <frame level="53" function="_BlockUntilNextEventMatchingListInModeWithFilter " offset="00000000"/>
+    <frame level="54" function="_DPSNextEvent " offset="00000000"/>
+    <frame level="55" function="-[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] " offset="00000000"/>
+    <frame level="56" function="-[NSApplication run] " offset="00000000"/>
+    <frame level="57" function="wxGUIEventLoop::OSXDoRun() " offset="00000000"/>
+    <frame level="58" function="wxCFEventLoop::DoRun() " offset="00000000"/>
+    <frame level="59" function="wxEventLoopBase::Run() " offset="00000000"/>
+    <frame level="60" function="wxAppConsoleBase::MainLoop() " offset="00000000"/>
+    <frame level="61" function="wxApp::OnRun() " offset="00000000"/>
+    <frame level="62" function="CodeBlocksApp::OnRun() " offset="00000000"/>
+    <frame level="63" function="wxEntry(int&amp;, wchar_t**) " offset="00000000"/>
+    <frame level="64" function="main " offset="00000000"/>
+    <frame level="65" function="start " offset="00000000"/>
+  </stack>
+</report>
